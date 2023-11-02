@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ogpeople ~ esex</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/skins/color-1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+        <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+        <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+        <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+        <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+        <link rel="stylesheet" href="css/style-switcher.css">
+    </head>
+    <body>
+    <div id="clickanywhere">
+        <p>click anywhere</p>
+     <script>
+        document.addEventListener("click", function () {
+            var clickAnywhereElement = document.getElementById("clickanywhere");
+            clickAnywhereElement.style.opacity = "0";
+            setTimeout(function () {
+                clickAnywhereElement.style.display = "none";
+            }, 500);
+            document.getElementById("song").play();
+        });
+    </script>
+
+ </div>
+<audio id="song">
+        <source src="KD3.mp3">
+      </audio>
+       <script>
+        window.addEventListener('click', () => {
+            document.getElementById("song").play();
+        });
+       </script>
+
+        <div class="main-container">
+            <div class="aside">
+                <div class="logo">
+                    <a href="#"><span></span>ogpeople</a>
+                </div>
+                <div class="nav-toggler">
+                    <span></span>
+                </div>
+                <ul class="nav">
+                    <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#About us"><i class="fa fa-list"></i>About us</a></li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <section class="home section active" id="home">
+                    <div class="container">
+                        <div class="row">
+                            <div class="home-info padd-15">
+                                <h3 class="hello">Welcome to ogpeople page<span class="name"></span></h3>
+                                <h3 class="my-profession"><span class="typing">Tropical</span></h3>
+                                <a href="https://discord.gg/isaenl">Click Here To Join the discord</a>
+                                <p>Dev Tropical </p>
+                                <a href="#about" data-section-index="0" class="btn funct">More About us</a>
+                            </div>
+                            <div class="home-img padd-15">
+                                <img src="pf.gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="service section" id="service">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>About us</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-laptop-code"></i>
+                                    </div>
+                                    <h4>Tropical</h4>
+                                    <p>Im 18 years old a fortnite seller/trader
+                                       Over 150+ Vouchers in fortnite com since 2018
+                                       Then i quited in 2020. And now im back in 2023,
+                                       I also sell cheap nitro boost and classic
+                                       Allot of people know me as Tropical/TropicalEu/TropicalSells/.
+                                       FrinzyFn
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-laptop-code"></i>
+                                    </div>
+                                    <h4>ogbrizzy</h4>
+                                    <p>Hi my name is ogbrizzy and im 18 years old allot of people know me as brizzy. Im a fortnite seller/trader over 100+ vouches and 99.2% Positive Feedback. I sell also cheap nitro boost/classic.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-item padd-15">
+                                <div class="service-item-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-laptop-code"></i>
+                                    </div>
+                                    <h4>Xuum</h4>
+                                    <p>Hey my name is Xuum im 17 years old im a fortnite seller/trader. Got above 250+ vouches my discord is : xuumsells. Im known as Xuum/Xummsells.  
+                                    </p>
+                                </div>
+
+                </section>
+            </div>
+        </div>
+        <div class="style-switcher">
+            <div class="style-switcher-toggler s-icon">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>
+            <div class="day-night s-icon">
+                <i class="fas"></i>
+            </div>
+            <h4>Theme Colors</h4>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+        <script src="js/script.js"></script>
+        <script src="js/style-switcher.js"></script>
+        <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+        <script>
+            var sf = new Snowflakes({
+                color: "#8c00ff",
+                count: 60,
+                speed: 4,
+                minSize: 1,
+                maxSize: 15
+            });
+            </script>
+        <script>
+            document.onkeydown = function(e) {
+                    if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+                        alert('Nigga You thought');
+                    }
+                    return false;
+            };
+        </script>
+    </body>
+</html>
